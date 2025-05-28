@@ -7,7 +7,7 @@
 */
 
 :root {
-    --cor1:#49a092;
+    --cor1:#49a09d;
     --cor2:#5f2c82;
     --cor3:#94CFCD;
 }
@@ -42,6 +42,9 @@ section#login {
     width: 250px;
     height: 515px;
     border-radius: 20px;
+    
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
 }
 
 div#imagem {
@@ -55,13 +58,13 @@ div#formulario {
     padding: 10px;
 }
 
+#formulario h1 {
+    text-align: center;
+}
+
 div#formulario p {
     text-align: center;
     font-size: 0.8em;
-}
-
-#formulario h1 {
-    text-align: center;
 }
 
 .campo {
