@@ -7,9 +7,9 @@
 */
 
 :root {
-    --cor1:#49a09d;
-    --cor2:#5f2c82;
-    --cor3:#94CFCD;
+    --cor1:#45cab0;
+    --cor2:#1367ba;
+    --cor3:#9aeba3;
 }
 
 * {
@@ -136,7 +136,7 @@ form > a.botao {
 }
 
 form > a.botao:hover {
-    background-color: #6cd3cf;
+    background-color: #dafdba;
 }
 
 form > a.botao > span {
